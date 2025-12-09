@@ -5,6 +5,7 @@ numpy
 openpyxl  # For reading Excel files in Launch.py
 plotly    # CRITICAL: Needed for plotly.express (current error)
 matplotlib
+tabulate
 seaborn
 
 # Machine Learning & Stats
