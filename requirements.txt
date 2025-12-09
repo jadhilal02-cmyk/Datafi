@@ -2,16 +2,19 @@
 streamlit
 pandas
 numpy
+openpyxl  # For reading Excel files in Launch.py
+plotly    # CRITICAL: Needed for plotly.express (current error)
 matplotlib
 seaborn
-openpyxl  # Used for reading/writing .xlsx files
 
 # Machine Learning & Stats
-scikit-learn  # Contains KMeans, needed for Data Analysis
-statsmodels
-google-genai
-prophet  # Needed for your time series analysis
+scikit-learn  # For KMeans and StandardScaler
+prophet       # For time series forecasting
+statsmodels   # For statsmodels.api (used for 'ols' trendlines in plotly)
 
-# Utility & Deployment (Good Practice)
-python-dotenv  # For local management of secrets (optional)
-requests  # If your app fetches external data
+# AI Dependency
+google-genai  # For the Gemini API client
+
+# Utility & Deployment 
+python-dotenv 
+requests
