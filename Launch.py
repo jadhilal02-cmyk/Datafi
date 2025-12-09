@@ -10,7 +10,7 @@ from config import MAX_ROWS_DEFAULT, SUGGESTED_ROW_LIMIT, WARN_THRESHOLD_ROWS
 # --- Configuration ---
 st.set_page_config(
     layout="wide", 
-    page_title="Datafy: Launch",
+    page_title="Datafi: Launch",
     initial_sidebar_state="expanded" 
 )
 
