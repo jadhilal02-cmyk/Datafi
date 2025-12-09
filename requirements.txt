@@ -9,6 +9,7 @@ openpyxl  # Used for reading/writing .xlsx files
 # Machine Learning & Stats
 scikit-learn  # Contains KMeans, needed for Data Analysis
 statsmodels
+google-genai
 prophet  # Needed for your time series analysis
 
 # Utility & Deployment (Good Practice)
