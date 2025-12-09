@@ -1,3 +1,16 @@
+# Core Streamlit & Data Handling
 streamlit
 pandas
-prophet
+numpy
+matplotlib
+seaborn
+openpyxl  # Used for reading/writing .xlsx files
+
+# Machine Learning & Stats
+scikit-learn  # Contains KMeans, needed for Data Analysis
+statsmodels
+prophet  # Needed for your time series analysis
+
+# Utility & Deployment (Good Practice)
+python-dotenv  # For local management of secrets (optional)
+requests  # If your app fetches external data
